@@ -1,8 +1,14 @@
 
+.menu-bar{
+
+background-color: black;
+}
+
+
   .nav-link{
 
     font-size: 25px !important;
-    color: blueviolet !important;
+    color:#fff !important;
     font-weight: 600;
   }
 
@@ -19,4 +25,51 @@
 .card{
   border: 0 !important;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.Product-Catagoey span{
+ display: block;
+ height: 7px;
+ width: 250px;
+background-color: blue;
+margin: auto;
+border-radius: 6px;
+
+}
+
+
+
+.catagory-items{
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: block;
+
+}
+.catagory-items img{
+  margin: auto;
+  display: block;
+}
+
+
+.space{
+  padding: 25px;
+}
+.col-6 img{
+  padding: 10px;
+}
+
+footer{
+  background-color: rgba(15, 14, 15, 0.96);
+  color: #fff;
+}
+.text-decoration{
+  list-style: none;
+}
+.text-decoration li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 0px ;
+  
 }
